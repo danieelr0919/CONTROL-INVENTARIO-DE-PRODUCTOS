@@ -58,3 +58,5 @@ Tabla: productos
 - precio DECIMAL(10,2) NOT NULL
 - cantidad INT NOT NULL
 
+- https://github.com/danieelr0919/MODELO-VISTA-CONTROLADOR-.git
+
