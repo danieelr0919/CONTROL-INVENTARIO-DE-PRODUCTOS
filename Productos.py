@@ -110,6 +110,10 @@ class InventarioApp:
         if not nombre:
             messagebox.showerror("Error", "El nombre del producto es obligatorio.")
             return
+
+        if not descripcion:
+            messagebox.showerror("Error", "La descripción del producto es obligatoria.")
+            return
         try:
             precio = float(precio_text)
             if precio < 0:
